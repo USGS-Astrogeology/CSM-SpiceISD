@@ -1,0 +1,3 @@
+INCLUDE_DIRECTORIES("${CMAKE_SOURCE_DIR}/include/")
+
+ADD_LIBRARY(IsdReader SHARED IsdReader.cpp)
